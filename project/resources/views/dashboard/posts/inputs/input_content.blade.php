@@ -1,0 +1,2 @@
+@if(get_option('content_editor') == 'tinymce')<span typy="button" class="cmp-picture-button btn btn-primary m-2">{{admin_lang('add_picture')}}</span>@endif
+<textarea rows="20" autocomplete="off" name="content" class="articleeditor-content" id="content">@if(isset($post)){{ $post->post_content }}@endif</textarea>

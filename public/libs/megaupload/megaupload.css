@@ -1,0 +1,10 @@
+.featuredimage {text-align: center;}
+.featuredimage .input-group {margin: auto;display: block;}
+.featuredimage .input-group-prepend {text-align: center;width: 100%;}
+.featuredimage .input-group-prepend button:last-child {width: 100%;}
+.uploadfile-wrapper{position: relative;}
+.rtl .uploadfile-wrapper {direction: ltr;}
+.uploadfile-wrapper .preview {margin-top: 10px;max-width: 100%;display: inline-block;min-width: 150px;}
+.uploadfile-wrapper .preview img {max-width: 100%;padding: 2px;border: 2px solid #ccc;}
+.uploadfile-wrapper .btn {height: 36px;line-height: 39px;padding: 0 10px;display: inline-block;}
+.uploadfile-wrapper .btn i {font-size: 18px}
